@@ -1,6 +1,6 @@
 # Vue2 Wheel Picker
 
-A vue2.x based development, similar to the ios wheel style selection plug-in, currently support time selection, single choice, multiple choice
+A vue2.x based development, similar to the ios wheel style selection mobile plug-in, currently support time selection, single choice, multiple choice
 
 ## Installation
 * by npm
