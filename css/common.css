@@ -46,6 +46,10 @@
   color: #888;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .align-center {
   align-items: center !important;
 }

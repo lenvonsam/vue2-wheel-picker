@@ -3,7 +3,9 @@
   <div class="col">
     <div class="btn cancel" @click="btnHandle($event, 'cancel')" :style="{ color: cancelColor }">{{cancelText}}</div>
   </div>
-  <div class="col btn confirm" @click="btnHandle($event, 'confirm')" :style="{ color: confirmColor, borderColor: confirmColor }">{{confirmText}}</div>
+  <div class="col text-right">
+    <div class="btn confirm" @click="btnHandle($event, 'confirm')" :style="{ color: confirmColor, borderColor: confirmColor }">{{confirmText}}</div>
+  </div>
 </div>
 </template>
 
