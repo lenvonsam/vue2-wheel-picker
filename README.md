@@ -24,8 +24,8 @@ Mobile Visit:
 
 Screenshots:
 
-![shots_datepicker](screenshots/demo1.png)
-![shots_picker](screenshots/demo2.png)
+![shots_datepicker](docs/screenshots/demo1.png)
+![shots_picker](docs/screenshots/demo2.png)
 
 ## Usage
 
@@ -246,4 +246,5 @@ export default {
 * Theme Picker(ios, android...)
 
 ## License
-MIT
+
+[MIT License](http://en.wikipedia.org/wiki/MIT_License)
