@@ -24,7 +24,7 @@ Mobile Visit:
 
 Screenshots:
 
-![shots_datepicker](http://commfile.thinkingsam.cn/datewheelpicker.png)
+![shots_datepicker](http://commfile.thinkingsam.cn/wheeldatepicker.png)
 ![shots_picker](http://commfile.thinkingsam.cn/wheelpicker.png)
 
 ## Usage
