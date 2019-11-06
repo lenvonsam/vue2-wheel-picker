@@ -24,8 +24,8 @@ Mobile Visit:
 
 Screenshots:
 
-![shots_datepicker](./screenshots/demo_1.png)
-![shots_picker](./screenshots/demo_2.png)
+![shots_datepicker](screenshots/demo1.png)
+![shots_picker](screenshots/demo2.png)
 
 ## Usage
 
