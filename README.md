@@ -229,5 +229,9 @@ export default {
 }
 ```
 ## TO DO LIST
+
 * China City Picker
 * Theme Picker(ios, android...)
+
+## License
+MIT
