@@ -22,6 +22,11 @@ Mobile Visit:
 
 ![mobile_demo](http://qr.liantu.com/api.php?text=https://lenvonsam.github.io/vue2-wheel-picker)
 
+Screenshots:
+
+![shots_datepicker](./screenshots/demo_1.png)
+![shots_picker](./screenshots/demo_2.png)
+
 ## Usage
 
 ### Global Config
