@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+.row {
+  display: -webkit-flex; /*新版本语法：chrome 21+*/
+  display: flex; /*新版本语法:opera 12.1,Firefox 22+*/
+  display: -webkit-box; /*老版本语法：Safari,iOS,Android browser,old Webkit browser*/
+  display: -moz-box; /*老版本语法：Firefox(buggy)*/
+  display: -ms-flexbox; /*混合版本语法：IE 10*/
+}
+
+.row .col {
+  -webkit-flex: 1; /*Chrome*/
+  -ms-flex: 1; /*IE 10*/
+  flex: 1; /* NEW ,Spec - Opera 12.1,Firefox 20+*/
+  -webkit-box-flex: 1; /*OLD -iOS 6-,Safari 3.1-6*/
+  -moz-box-flex: 1; /*OLD - Firefox 19-*/
+}
+
+.picker-toolbar {
+  height: 46px !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box !important;
+  font-size: 13px;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.picker-toolbar .btn {
+  display: inline-block;
+  padding: 4px 8px;
+}
+.picker-toolbar .btn.confirm {
+  border: 1px solid #ddd;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.picker-toolbar .btn.confirm:active {
+  color: white !important;
+  background: #3db0fc;
+  border: 0px;
+}
+
+.picker-toolbar .btn.cancel {
+  color: #888;
+}
+
+.align-center {
+  align-items: center !important;
+}
+
+.wheel-picker-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  z-index: 8999;
+}
+
+.wheel-picker-container .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  background-color: #000;
+  opacity: 0.4;
+}
+
+.wheel-picker-container .box {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.wheel-picker-container .box > .bottom-wrap {
+  position: absolute;
+  box-sizing: border-box;
+  background: #fff;
+  min-height: 50px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 11;
+}
+
+.picker-modal-enter-active {
+  transition: all .6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.picker-modal-leave-active {
+  transition: all .3s ease-out;
+}
+
+.picker-modal-enter,
+.picker-modal-leave-to {
+  transform: translateY(220px);
+
+  /* transform: scale(2); */
+  opacity: 0.5;
+}
