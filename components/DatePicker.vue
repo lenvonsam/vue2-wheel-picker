@@ -1,6 +1,6 @@
 <template>
 <p-container @hide="containerHide" v-model="dateShow">
-  <btn-group @click="containerHide"></btn-group>
+  <btn-group @click="containerHide" :confirmText="confirmText" :cancelText="cancelText" :confirmColor="confirmColor" :cancelColor="cancelColor" :bottomColor="bottomColor"></btn-group>
   <div class="row" v-if="dateShow">
     <div class="col" v-for="(localItem, idx) in localList" :key="idx">
       <w-item :listData="localItem" v-model="localValue[idx]" :ref="'pi' + idx" dataType="number"></w-item>
