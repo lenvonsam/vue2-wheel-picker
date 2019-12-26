@@ -1,6 +1,6 @@
 {
   "name": "vue2-wheel-picker",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Wheel picker, Wheel datepicker plugin using by Vue2.x",
   "main": "index.js",
   "scripts": {

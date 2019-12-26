@@ -138,10 +138,10 @@ export default {
     getRowValue (item, idx) {
       return this.rowObject ? item[this.rowKeys[idx]] : item
     },
-    containerHide () {
+    containerHide (type) {
       this.pickerShow = false
       this.$emit('input', this.pickerShow)
-      this.$emit('change', this.localValue)
+      if (type && type === 'confirm') this.$emit('change', this.localValue)
     }
   }
 }

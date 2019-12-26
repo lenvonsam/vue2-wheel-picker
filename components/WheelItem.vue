@@ -79,7 +79,7 @@ export default {
   },
   methods: {
     autoUpdate(val) {
-      if (val) {
+      if (val || val === '' || val === undefined) {
         if (this.listData.length > 0) {
           let index = this.listData.indexOf(val);
           if (index === -1) {
